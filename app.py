@@ -133,7 +133,7 @@ class EnsembleModel(nn.Module):
 ##########################################
 # Chargement des checkpoints de modèles
 ##########################################
-model_dir = r"C:\Users\20200337\Desktop\PROGRAMMATION\04_DOG_PREDICTION_STREAMLIT\MODELS"
+model_dir = r"MODELS"
 
 resnet50_path = os.path.join(model_dir, "resnet50_epoch_0025_valloss_0.5121.pth")
 resnet152_original_path = os.path.join(model_dir, "resnet152_model_epoch_0040_valloss_0.4799.pth")
